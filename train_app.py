@@ -118,9 +118,9 @@ def main():
     # Emissions section
     st.header("Impact environnemental")
     st.markdown(
-        "Les émissions de CO₂ sont estimées pour différentes distances en utilisant les
+        """Les émissions de CO₂ sont estimées pour différentes distances en utilisant les
         facteurs d'émission issus de l'article de Youmatter (14 g/km pour le
-        train et 55 g/km pour la voiture)."
+        train et 55 g/km pour la voiture)."""
     )
     # Compute emissions for generic distances
     distances = [100, 300, 500, 700]
