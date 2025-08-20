@@ -1,15 +1,3 @@
-"""Streamlit web application for SNCF open data portfolio.
-
-This app presents an interactive dashboard using selected SNCF open data.
-It demonstrates ridership trends, punctuality metrics, pricing examples and
-emissions comparisons.  The app uses the datasets packaged in this
-repository: a full ridership CSV, and small samples of punctuality,
-pricing and station lists embedded in ``analysis.py``.  To run the app,
-execute ``streamlit run app.py`` from the project directory.
-
-The user's browser timezone is assumed to be Europe/Berlin.
-"""
-
 from __future__ import annotations
 
 import json
